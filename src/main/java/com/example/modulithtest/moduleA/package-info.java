@@ -1,6 +1,5 @@
 @org.springframework.modulith.ApplicationModule(
         id = "moduleA",
-        displayName = "Module A",
-        allowedDependencies = "moduleB"
+        displayName = "Module A"
 )
 package com.example.modulithtest.moduleA;
