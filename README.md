@@ -30,3 +30,5 @@ org.springframework.modulith.core.Violations:
 - Module 'moduleC' depends on module 'moduleA' via com.example.modulithtest.moduleC.MyService -> com.example.modulithtest.moduleA.dtos.MyDTO. Allowed targets: moduleA.
 - Module 'moduleC' depends on module 'moduleA' via com.example.modulithtest.moduleC.MyService -> com.example.modulithtest.moduleA.dtos.MyRelatedDTO. Allowed targets: moduleA.
 ```
+
+Is this the intended behavior? Do we need to annotate every single related type or place them on the root folder?
