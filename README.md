@@ -10,7 +10,7 @@ You must also either:
 
 Exporting an interface should suffice to express a clear intention without needing to annotate every single type. You either export an interface or you don't.
 
-It's not clear if this is a bug or the intended behaviour. See
+And it's not clear if this is a bug or the intended behaviour. See
 https://github.com/spring-projects/spring-modulith/issues/1264
 
 ## Playground Project showcasing this issue
