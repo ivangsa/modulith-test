@@ -8,11 +8,11 @@ import com.example.modulithtest.moduleA.services.ANamedService;
 
 public class MyService {
     private APublicService aPublicService;
-//    private ANamedService aNamedService;
+    private ANamedService aNamedService;
 
     public void doSomething() {
         var myDTO = new MyDTO("name", new MyRelatedDTO("name"), MyEnum.ONE);
         aPublicService.doSomething(myDTO);
-//        aNamedService.doSomething(myDTO);
+        aNamedService.doSomething(myDTO);
     }
 }
